@@ -1,0 +1,127 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.card {
+  height: 500px;
+  width: 448px;
+  border-radius: 8px;
+  border: 1px solid var(--border-card);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 48px 40px 36px;
+}
+
+.card h2 {
+  padding-top: 16px;
+  font-weight: 400;
+  font-size: 24px;
+}
+
+.card h3 {
+  padding: 11px 0 35px 0;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.card input {
+  padding: 13px 15px;
+  width: 100%;
+  height: 55px;
+  border-radius: 4px;
+  border: 1px solid var(--border-card);
+  outline-color: #1973e8;
+  font-size: 16px;
+}
+
+.card .btn-email {
+  padding-top: 12px;
+  width: 100%;
+}
+
+.card .btn-email button {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--blue);
+  font-weight: bold;
+  font-size: 14px;
+  outline: none;
+}
+
+.card p {
+  padding-top: 48px;
+  color: var(--p);
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+.card p a {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  color: var(--blue);
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.card .card-bottom {
+  margin-top: 32px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.card .card-bottom a {
+  border: none;
+  cursor: pointer;
+  color: var(--blue);
+  font-weight: bold;
+  text-decoration: none;
+  font-size: 14px;
+  margin: 8px;
+}
+
+.card .card-bottom button {
+  background: var(--blue);
+  color: white;
+  padding: 9px 24px;
+  font-size: 14px;
+  outline: none;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.card .card-bottom button:hover {
+  background: #1a66c9;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 24px;
+  font-size: 12px;
+  width: 448px;
+  color: var(--p);
+}
+
+.footer select {
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  outline: none;
+}
+
+.footer .footer-span span {
+  margin-left: 32px;
+}
